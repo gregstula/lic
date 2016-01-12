@@ -7,7 +7,7 @@ import (
 	"os"
 	"regexp"
 	"fmt"
-	//"errors"
+	"errors"
 	"strings"
 )
 
@@ -26,11 +26,11 @@ type stack [][]byte
 
 
 // Returns the size and emptyness of the stack
-/*func (s stack) IsEmpty() (int, bool) {
+func (s stack) IsEmpty() (int, bool) {
 	l := len(s)
 	return l, l == 0
 }
-*/
+
 
 
 func (s stack) Push(b []byte) stack {
@@ -101,7 +101,7 @@ func personalize(src []byte, settings []byte) []byte {
 // TODO: Implment parse and test that it can correctly read settings from
 // the comments of a .gitignore file
 
-/*func parse(src []byte) map[string][]byte {
+func parse(src []byte) map[string][]byte {
 
 	var hbstack stack
 
@@ -128,11 +128,9 @@ func personalize(src []byte, settings []byte) []byte {
 		hbmap[key] = value
 	}
 	return hbmap
-}*/
+}
 
 
-// Idea is to read the settings in the comments of .gitignore in hashbraces
-// #[hashbrace]
 func main() {
 
 	path := ""
