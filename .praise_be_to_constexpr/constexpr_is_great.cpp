@@ -2,7 +2,7 @@
 
 constexpr auto hello_scream = u8R"delimeter(
 
-                THIS STRING WAS A COMPILE TIME CONSTANT 😱
+          😱 THIS STRING WAS A COMPILE TIME CONSTANT 😱
 
 )delimeter";
 

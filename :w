@@ -1,0 +1,42 @@
+
+def lucky_word
+  words = "/usr/share/dict/words"
+  word = ""
+
+  if not File.exists?(words)
+    word = "youre_not_using_a_real_unix_lmao"
+  else
+    dict = File.foreach(words).map { |line| line.split("\n") }
+    count = array.count
+    num = rand(count)
+    word = dict[num]
+  end 
+  word
+end
+
+
+def constexpr_is_power filename
+  raw_name = filename.split(".")[0]
+  cpp_name = raw_name + ".hpp"
+  delim = lucky_word 
+
+  File.open(new_file, 'w') do |file_io|
+  file_io.puts 'constexpr auto = u8R"{delim}(' 
+
+  File.foreach(original_file) do |line|
+  fo.puts line
+  end
+
+  File.rename(filename, temp + '')
+  File.rename(temp, filename)
+
+  File.open(original_file
+
+end
+
+
+Dir.foreach('choosealicense.com/_licenses') do |license|
+  constexpr_is_power(license)
+end
+
+

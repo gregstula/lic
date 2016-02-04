@@ -23,7 +23,7 @@ module Lic
       dict = File.foreach(words).map { |line| line.split("\n") }
       count = dict.count
       num = rand(count)
-      word = dict[num][0]
+      word = dict[num]
     end 
     word
   end
@@ -35,13 +35,14 @@ module Lic
 
     File.open("#{header}", 'w') do |ofstream|
       # prepend include guard and constexpr raw string utf8 literal syntax
-      ofstream.puts "#ifndef #{raw_name}_hpp"
-      ofstream.puts "#define #{raw_name}_hpp"
+      ofstream.puts "#IFNDEF #{raw_name}_hpp"
+      ofstream.puts "#DEFINE #{raw_name}_hpp"
       ofstream.puts "constexpr auto = u8R\"#{delim}("
       File.foreach("#{DIR}#{f}") { |contents| ofstream.puts contents }
     end
+
     # append closing delimeter for raw string literal
-    File.write("#{header}", ")#{delim}\"\n#endif", File.size("#{header}"), mode: 'a')
+    File.open("#{header}", 'w') { |ofstream| ofstream << "#{delim}\"last" }
   end # def self.constexpr_is_power
 
 end # module Lic
