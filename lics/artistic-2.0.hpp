@@ -1,6 +1,4 @@
-#ifndef artistic-2.0_hpp
-#define artistic-2.0_hpp
-constexpr auto = u8R"ungainful(
+u8R"ungainful(
 ---
 title: Artistic License 2.0
 redirect_from: /licenses/artistic/
@@ -229,4 +227,3 @@ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 )ungainful"
-#endif

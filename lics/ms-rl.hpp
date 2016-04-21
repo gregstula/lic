@@ -1,6 +1,4 @@
-#ifndef ms-rl_hpp
-#define ms-rl_hpp
-constexpr auto = u8R"deerberry(
+u8R"deerberry(
 ---
 title: Microsoft Reciprocal License
 
@@ -47,4 +45,3 @@ A "contributor" is any person that distributes its contribution under this licen
 (E) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.
 (F) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.
 )deerberry"
-#endif

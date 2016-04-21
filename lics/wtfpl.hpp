@@ -1,6 +1,4 @@
-#ifndef wtfpl_hpp
-#define wtfpl_hpp
-constexpr auto = u8R"nonfireproof(
+u8R"nonfireproof(
 ---
 title: "Do What The F*ck You Want To Public License"
 source: http://www.wtfpl.net/
@@ -35,4 +33,3 @@ forbidden: []
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
 )nonfireproof"
-#endif

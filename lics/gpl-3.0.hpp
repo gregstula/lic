@@ -1,6 +1,4 @@
-#ifndef gpl-3.0_hpp
-#define gpl-3.0_hpp
-constexpr auto = u8R"quaestor(
+u8R"quaestor(
 ---
 title: GNU General Public License v3.0
 nickname: GNU GPL v3.0
@@ -709,4 +707,3 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 )quaestor"
-#endif

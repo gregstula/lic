@@ -12,8 +12,49 @@
 #include <functional>
 #include <algorithm>
 
-struct lic {
 
+constexpr auto afl3_content =
+#include "../lics/gpl-3.0.hpp"
+;
+
+constexpr auto agpl3_content =
+#include "../lics/agpl-3.0.hpp"
+;
+
+constexpr auto apache2_content =
+#include "../lics/apache-2.0.hpp"
+;
+
+constexpr auto artistic2_content =
+#include "../lics/artistic-2.0.hpp"
+;
+
+constexpr auto bsd2clause_content =
+#include "../lics/bsd-2-clause.hpp"
+;
+
+constexpr auto bsd3clauseclear_content =
+#include "../lics/bsd-3-clause-clear.hpp"
+;
+
+constexpr auto bsd3clause_content =
+#include "../lics/bsd-3-clause.hpp"
+;
+
+constexpr auto gpl2_content =
+#include "../lics/gpl-2.0.hpp"
+;
+
+constexpr auto gpl3_content =
+#include "../lics/gpl-3.0.hpp"
+;
+
+constexpr auto mit_content =
+#include "../lics/mit.hpp"
+;
+
+struct lic {
+    
     std::string name;
     std::string content;
     
@@ -22,14 +63,7 @@ struct lic {
         this->content = content;
     }
     
- };
-
-auto gpl3_content = std::string(
-//#include "gpl3_content.h"
-);
-
-auto mit_content = std::string(
-);
+};
 
 auto gpl3 = lic ("gpl3", gpl3_content);
 auto mit = lic("mit", mit_content);

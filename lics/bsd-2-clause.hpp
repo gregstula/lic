@@ -1,6 +1,4 @@
-#ifndef bsd-2-clause_hpp
-#define bsd-2-clause_hpp
-constexpr auto = u8R"stairy(
+u8R"stairy(
 ---
 title: BSD 2-clause "Simplified" License
 nickname: Simplified BSD
@@ -53,4 +51,3 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 )stairy"
-#endif

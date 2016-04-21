@@ -1,6 +1,4 @@
-#ifndef ofl-1.1_hpp
-#define ofl-1.1_hpp
-constexpr auto = u8R"anguished(
+u8R"anguished(
 ---
 title: SIL Open Font License 1.1
 redirect_from: /licenses/ofl/
@@ -119,4 +117,3 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 )anguished"
-#endif

@@ -1,6 +1,4 @@
-#ifndef gpl-2.0_hpp
-#define gpl-2.0_hpp
-constexpr auto = u8R"nonfocal(
+u8R"nonfocal(
 ---
 title: GNU General Public License v2.0
 nickname: GNU GPL v2.0
@@ -374,4 +372,3 @@ consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
 )nonfocal"
-#endif

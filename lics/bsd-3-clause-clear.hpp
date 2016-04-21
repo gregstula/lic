@@ -1,6 +1,4 @@
-#ifndef bsd-3-clause-clear_hpp
-#define bsd-3-clause-clear_hpp
-constexpr auto = u8R"pitometer(
+u8R"pitometer(
 ---
 title: BSD 3-clause Clear License
 nickname: Clear BSD
@@ -62,4 +60,3 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGE.
 )pitometer"
-#endif

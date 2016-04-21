@@ -1,6 +1,4 @@
-#ifndef lppl-1.3c_hpp
-#define lppl-1.3c_hpp
-constexpr auto = u8R"overgamble(
+u8R"overgamble(
 ---
 title: LaTeX Project Public License v1.3c
 hidden: true
@@ -448,4 +446,3 @@ Important Recommendations
    the Work.
 
 )overgamble"
-#endif

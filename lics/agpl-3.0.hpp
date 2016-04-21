@@ -1,6 +1,4 @@
-#ifndef agpl-3.0_hpp
-#define agpl-3.0_hpp
-constexpr auto = u8R"mishmee(
+u8R"mishmee(
 ---
 title: GNU Affero General Public License v3.0
 nickname: GNU Affero GPL v3.0
@@ -697,4 +695,3 @@ if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <http://www.gnu.org/licenses/>.
 )mishmee"
-#endif

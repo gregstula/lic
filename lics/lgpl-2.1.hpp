@@ -1,6 +1,4 @@
-#ifndef lgpl-2.1_hpp
-#define lgpl-2.1_hpp
-constexpr auto = u8R"contangential(
+u8R"contangential(
 ---
 title: GNU Lesser General Public License v2.1
 nickname: GNU LGPL v2.1
@@ -539,4 +537,3 @@ necessary.  Here is a sample; alter the names:
 
 That's all there is to it!
 )contangential"
-#endif

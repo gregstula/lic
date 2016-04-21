@@ -1,6 +1,4 @@
-#ifndef osl-3.0_hpp
-#define osl-3.0_hpp
-constexpr auto = u8R"synchronistical(
+u8R"synchronistical(
 ---
 title: Open Software License 3.0
 source: http://opensource.org/licenses/OSL-3.0
@@ -208,4 +206,3 @@ may not claim that your original works are open source software unless your
 Modified License has been approved by Open Source Initiative (OSI) and You
 comply with its license review and certification process.
 )synchronistical"
-#endif

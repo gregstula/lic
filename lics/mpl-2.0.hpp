@@ -1,6 +1,4 @@
-#ifndef mpl-2.0_hpp
-#define mpl-2.0_hpp
-constexpr auto = u8R"Alphonsine(
+u8R"Alphonsine(
 ---
 title: Mozilla Public License 2.0
 redirect_from: /licenses/mozilla/
@@ -402,4 +400,3 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
 )Alphonsine"
-#endif

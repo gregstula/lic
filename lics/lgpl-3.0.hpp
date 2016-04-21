@@ -1,6 +1,4 @@
-#ifndef lgpl-3.0_hpp
-#define lgpl-3.0_hpp
-constexpr auto = u8R"overinterestedness(
+u8R"overinterestedness(
 ---
 title: GNU Lesser General Public License v3.0
 nickname: GNU LGPL v3.0
@@ -199,4 +197,3 @@ apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the
 Library.
 )overinterestedness"
-#endif

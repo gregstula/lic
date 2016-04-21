@@ -1,6 +1,4 @@
-#ifndef cc0-1.0_hpp
-#define cc0-1.0_hpp
-constexpr auto = u8R"abscissae(
+u8R"abscissae(
 ---
 title: Creative Commons Zero v1.0 Universal
 nickname: CC0 1.0 Universal
@@ -148,4 +146,3 @@ Affirmer's express Statement of Purpose.
 For more information, please see
 <http://creativecommons.org/publicdomain/zero/1.0/>
 )abscissae"
-#endif

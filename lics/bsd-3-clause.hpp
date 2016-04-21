@@ -1,6 +1,4 @@
-#ifndef bsd-3-clause_hpp
-#define bsd-3-clause_hpp
-constexpr auto = u8R"bethel(
+u8R"bethel(
 ---
 title: BSD 3-clause "New" or "Revised" License
 nickname: New BSD
@@ -56,4 +54,3 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 )bethel"
-#endif

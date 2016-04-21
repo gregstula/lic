@@ -1,6 +1,4 @@
-#ifndef eupl-1.1_hpp
-#define eupl-1.1_hpp
-constexpr auto = u8R"quiles(
+u8R"quiles(
 ---
 title: European Union Public License 1.1
 nickname: EUPL-1.1
@@ -347,4 +345,3 @@ Appendix
 - Eclipse Public License v. 1.0
 - Cecill v. 2.0
 )quiles"
-#endif

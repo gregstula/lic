@@ -1,6 +1,4 @@
-#ifndef apache-2.0_hpp
-#define apache-2.0_hpp
-constexpr auto = u8R"unstirrable(
+u8R"unstirrable(
 ---
 title: Apache License 2.0
 nickname: Apache
@@ -234,4 +232,3 @@ hidden: false
    See the License for the specific language governing permissions and
    limitations under the License.
 )unstirrable"
-#endif

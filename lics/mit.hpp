@@ -1,6 +1,4 @@
-#ifndef mit_hpp
-#define mit_hpp
-constexpr auto = u8R"tirewoman(
+u8R"tirewoman(
 ---
 title: MIT License
 featured: true
@@ -47,4 +45,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 )tirewoman"
-#endif

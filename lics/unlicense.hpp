@@ -1,6 +1,4 @@
-#ifndef unlicense_hpp
-#define unlicense_hpp
-constexpr auto = u8R"percarbide(
+u8R"percarbide(
 ---
 title: The Unlicense
 tab-slug: unlicense
@@ -52,4 +50,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
 )percarbide"
-#endif

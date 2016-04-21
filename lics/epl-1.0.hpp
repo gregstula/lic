@@ -1,6 +1,4 @@
-#ifndef epl-1.0_hpp
-#define epl-1.0_hpp
-constexpr auto = u8R"orgy(
+u8R"orgy(
 ---
 title: Eclipse Public License 1.0
 redirect_from: /licenses/eclipse/
@@ -239,4 +237,3 @@ Agreement will bring a legal action under this Agreement more than one year
 after the cause of action arose. Each party waives its rights to a jury trial in
 any resulting litigation.
 )orgy"
-#endif
