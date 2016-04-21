@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <string>
 #include <functional>
@@ -65,19 +66,34 @@ struct lic {
     
 };
 
+auto afl3 = lic ("afl3", afl3_content);
+auto agpl3 = lic ("agpl3", agpl3_content);
+auto apache2 = lic ("apache2", apache2_content);
+auto artistic = lic ("artistic", artistic2_content);
+auto bsd2clause = lic ("bsd2clause", bsd2clause_content);
+auto bsd3clauseclear = lic ("bsd3clauseclear", bsd3clauseclear_content);
+auto bsd3clause = lic ("bsd3clause", bsd3clause_content);
+auto gpl2 = lic ("gpl2", gpl2_content);
 auto gpl3 = lic ("gpl3", gpl3_content);
-auto mit = lic("mit", mit_content);
+auto mit = lic ("mit", mit_content);
 
 int main(int argc, const char * argv[]) {
     
-    std::vector<lic> v { mit, gpl3 };
+    std::vector<lic> v { afl3, agpl3, apache2, artistic, bsd2clause, bsd3clauseclear, mit, gpl2, gpl3 };
+    
+    if (argc < 2) {
+        return 1;
+    }
     
     auto result = std::remove_if(v.begin(), v.end(), [&](lic l) {
-        return l.name == std::string(argv[0]);
+        return l.name == std::string(argv[1]);
     });
     
+    std::ofstream o;
+    o.open ("LICENSE");
+    o << result->content;
+    o.close ();
     
-    std::cout << result->name;
     return 0;
 }
 
